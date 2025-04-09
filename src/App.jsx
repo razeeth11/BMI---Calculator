@@ -62,13 +62,13 @@ function BmiCalculator() {
           </div>
         </div>
       </div>
-      <Button className="p-7 text-xl cursor-pointer">Calculate</Button>
-      <div>
+      <div className="flex flex-col gap-7">
+        <Button className="p-7 text-xl cursor-pointer w-full">Calculate</Button>
         <div className="flex items-center gap-2.5">
           <h3 className="text-xl font-bold">Your BMI : </h3>
           <p className="text-xl">28.3</p>
         </div>
-        <p className="text-center font-medium mt-8">Start your workout!</p>
+        <p className="text-center font-medium">Start your workout!</p>
       </div>
 
       {/* <p>Your perfect!</p>
