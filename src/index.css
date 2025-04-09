@@ -118,3 +118,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+body {
+  background: rgb(236, 236, 236);
+}
